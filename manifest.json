@@ -1,0 +1,19 @@
+{
+  "name": "Worth",
+  "short_name": "Worth",
+  "description": "A small, quiet place. You are here, and that is good.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fde7d3",
+  "theme_color": "#f5d6c0",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
