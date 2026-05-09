@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Breath wave: a single inhale-exhale curve -->
+  <path d="M 10 50 Q 30 18 50 50 T 90 50"
+        fill="none"
+        stroke="#3a2e3a"
+        stroke-width="6"
+        stroke-linecap="round" />
+</svg>

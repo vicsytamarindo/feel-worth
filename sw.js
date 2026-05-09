@@ -1,5 +1,16 @@
-const CACHE = 'worth-v1';
-const ASSETS = ['./', './index.html', './manifest.json', './icon.svg'];
+const CACHE = 'worth-v2';
+const ASSETS = [
+  './',
+  './index.html',
+  './manifest.json',
+  './styles.css',
+  './app.js',
+  './i18n.js',
+  './icon.svg',
+  './icon-enso.svg',
+  './icon-horizon.svg',
+  './icon-breath.svg',
+];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)));
